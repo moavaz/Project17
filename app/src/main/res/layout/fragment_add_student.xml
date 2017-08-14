@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moavaz.project17.AddStudentFragment">
+
+    <TextView
+        android:text="Add Student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textstudent"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textstudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editfname"
+        android:hint="enter first name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editfname"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editlname"
+        android:hint="enter last name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editemail"
+        android:hint="enter email"
+        android:layout_below="@+id/editcontactno"
+        android:layout_alignStart="@+id/editcontactno" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editstuid"
+        android:hint="enter student id"
+        android:layout_below="@+id/editlname"
+        android:layout_alignEnd="@+id/textstudent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editimg"
+        android:hint="Image "
+        android:layout_below="@+id/editemail"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editcontactno"
+        android:hint="enter contact no"
+        android:layout_below="@+id/editstuid"
+        android:layout_alignStart="@+id/editstuid" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsave"
+        android:layout_below="@+id/editimg"
+        android:layout_alignEnd="@+id/editlname" />
+
+
+</RelativeLayout>

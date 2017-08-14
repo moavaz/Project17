@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moavaz.project17.UpdateStudentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editTextfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="enter First name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter Last Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextstuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter Student ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Img"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter Phone Number"
+        android:inputType="text|number" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:text="Update" />
+
+
+</LinearLayout>
